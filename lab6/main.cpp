@@ -1,3 +1,7 @@
+/*
+    Count how many times each number occurs in the file and write it into a sequential output file.
+*/
+
 #include <iostream>
 #include "infile.h"
 
