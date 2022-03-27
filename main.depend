@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1648381471 source:d:\program files (x86)\hunter\main.cpp
+	<iostream>
+	"enor.h"
+
+1648382226 d:\program files (x86)\hunter\include\enor.h
+	<string>
+	<iostream>
+	<fstream>
+
