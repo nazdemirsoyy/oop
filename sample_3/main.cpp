@@ -70,7 +70,6 @@ Hackaton maxBeforeFail(Hackaton &hack, Status &st, std::fstream &x){
         return max;
 }
 
-
 int main()
 {
     Hackaton hack;
