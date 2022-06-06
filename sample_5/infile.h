@@ -5,7 +5,6 @@
 #include <string>
 #include <sstream>
 
-
 struct Hackaton{
     std::string HackID;
     std::string name;
@@ -49,7 +48,6 @@ struct Hackaton{
 
 enum Status {norm,abnorm};
 
-
 class infile
 {
     public:
@@ -71,7 +69,6 @@ class infile
         Hackaton e;
         Hackaton curr;
         bool m_end;
-
         void read();
 };
 
