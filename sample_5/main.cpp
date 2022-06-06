@@ -1,10 +1,8 @@
 #include <iostream>
 #include "infile.h"
 /* Hackaton, find a competitor who finished at least more than 80. */
-
 int main()
 {
-
     try{
         infile t("input.txt");
         t.first();
@@ -27,7 +25,7 @@ int main()
         {
     std::cerr <<"Opening file failed.\n";
     exit(-1);
-
+        
     return 0;
     }
 }
