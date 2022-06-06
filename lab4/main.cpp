@@ -1,6 +1,5 @@
 #include <iostream>
 #include <fstream>
-
 using namespace std;
 
 enum Status
@@ -88,10 +87,9 @@ pair<double, double> beforeAfter(fstream &x)
 }
 
 // before: Calculate the avg of daily temperature before the first temperature under the freezing point
-
 // after:Calculate the avg of daily temperature after the first temperature under the freezing point
-
-// before after:Calculate the avg of daily temperature before and after the first temp under the freezing point if in the after version that first freezing temp is included too.
+// before after:Calculate the avg of daily temperature before and after the first temp under 
+//the freezing point if in the after version that first freezing temp is included too.
 int main()
 {
     fstream f("input.txt");
