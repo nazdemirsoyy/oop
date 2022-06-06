@@ -1,11 +1,6 @@
 #include <iostream>
 #include "infile.h"
-
-/*
-Hackaton,
-find a competitor who finished at least more than 80.
-
-*/
+/* Hackaton, find a competitor who finished at least more than 80. */
 
 int main()
 {
