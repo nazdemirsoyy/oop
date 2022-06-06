@@ -11,8 +11,6 @@ get all the competitor who got the max score before the first failing
 competitior(< 40%)
 */
 
-
-
 struct Hackaton{
     std::string HackID;
     std::string name;
@@ -71,8 +69,6 @@ Hackaton maxBeforeFail(Hackaton &hack, Status &st, std::fstream &x){
     }
         return max;
 }
-
-
 
 
 int main()
