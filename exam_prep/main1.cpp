@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
-///After the first half-empty flight (NoP/PC<=0.5) how many flights were there, where the plane was big (PC>=150)?
+///After the first half-empty flight (NoP/PC<=0.5) how many flights were there
+//where the plane was big (PC>=150)?
 /// You have to define a method for
 /// reading from the file and you have to create an algorithm which
 /// is based on the general algorithm of the algorithmic patterns.
